@@ -15,27 +15,27 @@ const Navbar = () => {
         <h1 className="font-bold text-xl">MyPortfolio</h1>
         <ul className="hidden md:flex gap-4 items-center uppercase font-semibold">
           <li>
-            <a href="" className="hover:text-primary">
+            <a href="#home" className="hover:text-primary">
               Home
             </a>
           </li>
           <li>
-            <a href="" className="hover:text-primary">
+            <a href="#about" className="hover:text-primary">
               About me
             </a>
           </li>
           <li>
-            <a href="" className="hover:text-primary">
+            <a href="#what" className="hover:text-primary">
               What I Do
             </a>
           </li>
           <li>
-            <a href="" className="hover:text-primary">
+            <a href="#work" className="hover:text-primary">
               Work
             </a>
           </li>
           <li>
-            <a href="" className="hover:text-primary">
+            <a href="#contact" className="hover:text-primary">
               Contact me
             </a>
           </li>

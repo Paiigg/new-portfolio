@@ -6,7 +6,7 @@ import work2 from "../assets/Frame Thumbnails.png";
 
 const Work = () => {
   return (
-    <section className="pt-16 text-left">
+    <section id="work" className="pt-16 text-left">
       <div className="container mx-auto px-4">
         <div className="pb-10 text-center">
           <p className="text-primary text-xl">PORTFOLIO</p>

@@ -4,7 +4,7 @@ import UinUX from "../assets/uiux.svg";
 
 const WhatIDo = () => {
   return (
-    <section className="">
+    <section id="what">
       <div className="container mx-auto px-4">
         <div className="pb-10">
           <p className="text-primary text-xl">WHAT I DO</p>

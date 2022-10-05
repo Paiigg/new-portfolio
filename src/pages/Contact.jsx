@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section>
+    <section id="contact">
       <div className="flex justify-center py-[120px] px-4">
         <div className="bg-secondary w-[980px] h-[277px] px-4 rounded-xl flex flex-col items-center justify-center gap-3">
           <p className="text-3xl font-semibold">Have any project in mind?</p>

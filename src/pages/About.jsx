@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="container mx-auto px-4 py-16">
+    <section id="about" className="container mx-auto px-4 py-16">
       <div className="grid md:grid-cols-2 place-items-center ">
         <img
           src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
