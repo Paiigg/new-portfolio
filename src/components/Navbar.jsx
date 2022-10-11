@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed w-full bg-black/10 backdrop-blur-sm">
+    <header className="fixed w-full z-50 bg-black/10 backdrop-blur-sm">
       <nav className="flex justify-between items-center container mx-auto px-4 py-4">
         <h1 className="font-bold text-xl">MyPortfolio</h1>
         <ul className="hidden md:flex gap-4 items-center uppercase font-semibold">
@@ -46,33 +46,33 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed md:hidden top-[40px] py-5 right-0 w-full   uppercase font-semibold duration-500 ease-in-out"
+              ? "fixed md:hidden top-[60px] py-5 right-0 w-full   bg-secondary uppercase font-semibold duration-500 ease-in-out"
               : "fixed right-[-100%] top-[60px]  "
           }
         >
-          <ul className="flex flex-col justify-between gap-5  bg-black/10 backdrop-blur-sm">
+          <ul className="flex flex-col justify-between gap-5 ">
             <li>
-              <a href="" className="hover:text-primary">
+              <a href="#home" className="hover:text-primary">
                 Home
               </a>
             </li>
             <li>
-              <a href="" className="hover:text-primary">
+              <a href="#about" className="hover:text-primary">
                 About me
               </a>
             </li>
             <li>
-              <a href="" className="hover:text-primary">
+              <a href="#what" className="hover:text-primary">
                 What I Do
               </a>
             </li>
             <li>
-              <a href="" className="hover:text-primary">
+              <a href="#work" className="hover:text-primary">
                 Work
               </a>
             </li>
             <li>
-              <a href="" className="hover:text-primary">
+              <a href="#contact" className="hover:text-primary">
                 Contact me
               </a>
             </li>
